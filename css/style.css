@@ -1,0 +1,146 @@
+* {
+	box-sizing: border-box;
+	font-family: "Roboto", sans-serif;
+}
+
+html,
+body {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+header {
+	background-color: #3498db;
+	padding: 1px;
+	text-align: center;
+	color: #e0ffff;
+}
+
+.wrapper {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.wrapper .container {
+	width: 40%;
+	text-align: center;
+	border-radius: 5px;
+	margin: 10px;
+	padding: 10px;
+	border: 2px solid #3498db;
+}
+
+.wrapper .container .container-header {
+	color: #3498db;
+}
+
+.form {
+	display: flex;
+	flex-direction: column;
+}
+
+.form-group {
+	display: flex;
+	flex-direction: column;
+}
+
+.form-group .form-check {
+	display: flex;
+	margin-bottom: 10px;
+}
+
+.form-group .form-check input {
+	margin-top: 2px;
+}
+
+.form-group label {
+	text-align: start;
+	margin-top: 10px;
+	color: #3498db;
+}
+.form-group input {
+	height: 35px;
+	border-radius: 5px;
+	border: 1px solid #a0a0a0;
+	margin-top: 5px;
+}
+
+.btn-submit {
+	padding: 10px;
+	background-color: #3498db;
+	color: #e0ffff;
+	border: #e0ffff;
+	cursor: pointer;
+}
+
+.btn-submit:hover {
+	background-color: #2980b9;
+}
+
+input[type="text"],
+input[type="author"],
+input[type="year"] .btn-submit:focus {
+	outline: none;
+}
+
+.text-center {
+	text-align: center;
+}
+
+.form-title {
+	margin: auto 0;
+}
+
+.item {
+    margin-top: 15px;
+	border-radius: 8px;
+	padding: 20px 15px;
+	background: white;
+	display: flex;
+	flex-direction: column;
+	align-items: start;
+	border: 1px solid#2980b9;
+}
+
+.item h3 {
+	margin-top: -5px;
+	margin-bottom: -10px;
+}
+.item p {
+	text-align: start;
+	margin-bottom: -10px;
+}
+
+.shadow {
+	box-shadow: 0 5px 10px rgba(154, 160, 185, 0.05), 0 15px 40px rgba(166, 173, 201, 0.2);
+}
+.green {
+	height: 30px;
+	margin-top: 25px;
+	color: rgb(69, 192, 69);
+	cursor: pointer;
+	border: 1px solid rgb(69, 192, 69);
+	border-radius: 5px;
+	transition: all 0.7s;
+}
+.green:hover {
+	color: white;
+	background-color: rgb(69, 192, 69);
+}
+
+.red {
+	height: 30px;
+	margin-top: -30px;
+	margin-left: 135px;
+	border-radius: 5px;
+	color: red;
+	cursor: pointer;
+	border: 1px solid red;
+	transition: all 0.7s;
+}
+.red:hover {
+	color: white;
+	background-color: red;
+}

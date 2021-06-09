@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Bookshelf</title>
+
+		<link rel="stylesheet" href="css/style.css" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" />
+		<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet" />
+	</head>
+	<body>
+		<header>
+			<h1>Bookshelf Apps</h1>
+		</header>
+
+		<div class="wrapper">
+			<div class="container">
+				<h2 class="container-header">Masukkan Buku Baru</h2>
+				<form action="#" class="form" id="form">
+					<div class="form-group form-title">
+						<label for="title">Judul</label>
+						<input type="text" id="title" name="title" required />
+					</div>
+					<div class="form-group form-title">
+						<label for="title">Penulis</label>
+						<input type="text" id="author" name="author" required />
+					</div>
+					<div class="form-group form-title">
+						<label for="title">Tahun Terbit</label>
+						<input type="number" id="year" name="year" required />
+					</div>
+					<div class="form-group form-title">
+						<div class="form-check">
+							<label for="title">Sudah Dibaca</label>
+							<input type="checkbox" id="check" name="check" />
+						</div>
+					</div>
+
+					<input type="submit" name="Submit" value="Submit" class="btn-submit" />
+				</form>
+			</div>
+
+			<div class="container">
+				<article>
+					<h2 class="container-header">Belum selesai dibaca</h2>
+					<div class="list-book" id="still-reading"></div>
+				</article>
+			</div>
+			<div class="container">
+				<article>
+					<h2 class="container-header">Selesai dibaca</h2>
+					<div class="list-book" id="finished-reading"></div>
+				</article>
+			</div>
+		</div>
+
+		<script src="js/data.js"></script>
+		<script src="js/dom.js"></script>
+		<script src="js/script.js"></script>
+	</body>
+</html>
